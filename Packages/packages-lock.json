@@ -4,7 +4,25 @@
       "version": "file:Unity SharpZipLib",
       "depth": 0,
       "source": "embedded",
-      "dependencies": {}
+      "dependencies": {
+        "com.greener-games.unity-extensions": "1.0.0"
+      }
+    },
+    "com.greener-games.unity-extensions": {
+      "version": "1.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.svermeulen.asyncawaitutil": "0.1.3"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "com.svermeulen.asyncawaitutil": {
+      "version": "0.1.3",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
     },
     "com.unity.collab-proxy": {
       "version": "1.15.7",

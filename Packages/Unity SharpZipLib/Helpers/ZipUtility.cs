@@ -8,7 +8,7 @@ using ICSharpCode.SharpZipLib.Zip;
 
 namespace SharpZipLib.Unity.Helpers
 {
-    public static class ZipUtility
+    public static partial class ZipUtility
     { 
         public static void UncompressZip(string archivePath, string password, string outFolder)
         {
