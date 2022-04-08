@@ -10,7 +10,7 @@ namespace SharpZipLib.Unity.Helpers
 {
     public static partial class ZipUtility
     {
-        public async static void UncompressZipAsync(string archivePath, string password, string outFolder, int parallel = 8)
+        public async static Task UncompressZipAsync(string archivePath, string password, string outFolder, int parallel = 8)
         {
             if (Directory.Exists(outFolder))
             {
